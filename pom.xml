@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>musicg</groupId>
+  <artifactId>musicg-web</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>musicg-web</name>
+  <description>Sample Appium tests using JUnit</description>
+
+  <dependencies>
+    <dependency>
+      <groupId>musicg</groupId>
+      <artifactId>musicg</artifactId>
+      <version>1.4.2.0</version>
+      <!-- <scope>test</scope> -->
+    </dependency>
+  </dependencies>
+
+  <repositories>
+    <repository>
+      <id>git-ptdorf</id>
+      <name>Ptdorf's Git based repo</name>
+      <url>https://github.com/ptdorf/maven-repo/raw/master/release</url>
+    </repository>
+  </repositories>
+</project>
